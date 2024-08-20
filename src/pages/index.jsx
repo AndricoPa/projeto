@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "../components/layout/header";
+import Header from "../c                                                                                                                           omponents/layout/header";
 import Banner from "../../src/assets/banner.jpg"
 
 export default function Index(){
