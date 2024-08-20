@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.header{
+    background-color: #1C1364;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.nav a{
+    margin: 10px;
+}
+.burguer{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .nav a{
+        display: none;
+    }
+    .burguer{
+        display: block;
+    }
+}
