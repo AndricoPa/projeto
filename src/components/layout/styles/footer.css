@@ -4,30 +4,24 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-.header{
+.footer{
     background-color: #1C1364;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
 }
-.nav a{
+.redes a{
     margin: 10px;
+}
+.paragrafo{
     color: white;
-    text-decoration: none;
+    font-size: 16px;
 }
-.burguer{
-    display: none;
+.redes{
+    max-width: 2rem;
 }
-.logo{
-    max-width: 4rem;
-}
-
 @media only screen and (max-width: 600px){
-    .nav a{
-        display: none;
-    }
-    .burguer{
-        display: block;
+    .footer{
+        flex-direction: column;
     }
 }
